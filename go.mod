@@ -4,6 +4,6 @@
 
 module github.com/4rcode/gooroo
 
-go 1.0
+go 1.13
 
-require github.com/4rcode/gorgon v1.0.0
+require github.com/4rcode/gorgon v1.1.0

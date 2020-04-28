@@ -6,6 +6,4 @@ package gooroo_test
 
 func Example() {
 	// Output:
-	// Get "": unsupported protocol scheme ""
-	//   at example_test.go:38
 }

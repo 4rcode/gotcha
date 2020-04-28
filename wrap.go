@@ -31,9 +31,9 @@ func Wrap(err *error) bool {
 	return true
 }
 
-// WrapWith returns a new decorator function that wraps the provided error in a new
+// Wrapf returns a new decorator function that wraps the provided error in a new
 // one, with the specified message formatted with the optional arguments.
-func WrapWith(
+func Wrapf(
 	err *error, format string, args ...interface{},
 ) bool {
 	if isErrNil(err) {
